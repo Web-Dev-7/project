@@ -1,0 +1,276 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+height:auto;
+width:100%;
+}
+.container{
+background-image:url('g.jpg');
+width:100%;
+height:120vh;
+background-size:cover;
+background-repeat:no-repeat;
+text-align:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+overflow:hidden;
+font-size:25px;
+animation-name: back;
+animation-duration: 20.5s;
+animation-iteration-count: infinite;
+}
+@keyframes back {
+  from {
+    background-image: url("a.jpg");
+    background-repeat: no-repeat;
+  }
+  to {
+  background-image: url("pu.jpg");
+  background-repeat:no-repeat;
+  }
+  from {
+  background-image: url("g.jpg");
+  background-repeat:no-repeat;
+  }
+  to {
+  background-image: url("a.jpg");
+  background-repeat:no-repeat;
+  }
+  }
+.container button{
+align-items:center;
+color:white;
+background:transparent;
+width:250px;
+justify-content:space-between;
+margin-top:7%;
+outline:none;
+height:55px;
+border-radius:18px;
+border:2px solid white;
+font-size:20px;
+}
+h1{
+color:white;
+}
+.page2 img{
+width:80%;
+height:50vh;
+margin-top:9%;
+box-shadow:0px 8px 8px 0px;
+border-radius:4px;
+
+}
+
+.page2 h3{
+font-size:3em;
+
+}
+.page2 button{
+background:#098A00;
+height:47px;
+width:42%;
+border:none;
+outline:none;
+}
+.page3{
+background:whitesmoke;
+height:150vh;
+width:100%;
+margin-top:9%;
+text-align:center;
+align-items:center;
+box-shadow:0px 8px 8px 0px;
+}
+.page3  h3{
+font-size:2.3rem;
+}
+.ct{
+background:white;
+}
+img{
+margin-bottom:23%;
+}
+
+b{
+margin-bottom:33%;
+}
+.page2{
+text-align:center;
+align-items:center;
+margin-top:15%;
+height:auto;
+margin-bottom:10%;
+width:100%;
+}
+.page4{
+	background:lightyellow;
+	height:150vh;
+	width:100%;
+	position:relative;
+	align-items:center;
+	text-align:center;
+	}
+	.width{
+	width:28px;
+	}
+	.con{
+	
+	}
+	header{
+	
+	background:#001075;
+	width:100%;
+	height:12vh;
+	border-radius:1px;
+	}
+	input{
+	width:90%;
+	height:42px;
+	border-radius:8px;
+	padding:9px;
+	}
+	::placeholder {
+	padding:12px;
+	font-size: 14px;
+	}
+	line1{
+	height: 40vh;
+	width: 100%;
+	}
+	main{
+	width: 100%;
+	height: 100vh;
+	}
+	.main1{
+	float: right;
+	width: 80%;
+	box-sizing: border-box;
+	}
+	.icon{
+	background:;
+	width: 61px;
+	height: 50px;
+	margin-right: 10px;
+	}
+	/* nav bar  section */
+	.search{
+	color: #fff;
+	margin-top: 7px;
+	margin-left: 37px;
+	cursor: pointer;
+	width: 50px;
+	height: 40px;
+	}
+	.open{
+	float:right ;
+	color:white;
+	cursor: pointer;
+	font-weight: 30px;
+	transition:all 1.3s ease;
+	}
+	.sidenav{
+	height: 90vh;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: #000E89;
+	overflow-x: hidden;
+	padding-top: 60px;
+	float:right;
+	}
+	.sidenav a{
+	padding: 8px 8px 8px 32px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	transition:  all 0.3s ease;
+	text-align: center;
+	align-items: center;
+	position: relative;
+	}
+	.sidenav .closebtn{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+	}
+	.sidenav a:hover{
+	color: #f1f1f1;
+	}
+	header nav h1{
+	font-size:30px;
+	color: whitesmoke;
+	font-family: Helvetica, sans-serif;
+	padding-top:9px;
+	}
+	@media only screen and (max-width: 600px) {
+	.laptop{
+	display:none;
+	}
+	}
+	@media only screen and (min-width: 600px) {
+	.open{
+	display:none;
+}
+.laptop{
+float:right;
+margin-right:99px;
+margin-top:23px;
+color:white;
+}
+h1{
+font-family:Helitica, sans-serif;
+font-size:40px;
+}
+header nav h1{
+font-size:50px;
+}
+footer{
+height:5vh;
+width:100%;
+}
+	}
+	.webdev{
+	position: relative;
+	bottom:1.5px;
+	}
+	.close{
+	display:none;
+	}
+	.sidenav a:hover{
+	transition:all 1.5 ease;
+	background:blue;
+	}
+	footer{
+	background:black;
+	height:50vh;
+	width:100%;
+	color:white;
+	font-size:21px;
+	}
+	button {
+	width:159px;
+	height:49px;
+	margin-top:45px;
+	text-align: center;
+	align-items: center;
+	background: white;
+	border:2px solid blue;
+	border-radius:9px;
+	color:blue;
+	font-size:21px;
+	}
+	footer a{
+	color:white;
+	}
